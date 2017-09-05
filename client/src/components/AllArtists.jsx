@@ -3,12 +3,17 @@ import axios from 'axios';
 import ArtistCard from './ArtistCard';
 import styled from 'styled-components';
 
+
 const ArtistListStyles = styled.div`
     margin: 20px 5%;
     width: 90%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    a {
+        text-decoration: none;
+    }
     `;
 
 class AllArtists extends Component{
